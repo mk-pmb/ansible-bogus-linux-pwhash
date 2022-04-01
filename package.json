@@ -1,5 +1,5 @@
 { "name": "ansible-bogus-linux-pwhash",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A linux password hash value (for the password field in /etc/passwd or /etc/shadow) that is invalid (i.e. there is no correct input that could match this hash) but can be used with ansible without fuss.",
   "keywords": [
     "ansible",

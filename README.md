@@ -25,6 +25,7 @@ Why make a package for a static string?
 * To have a place for distributing updates, in case it turns out later
   versions of ansible will have other criteria.
 * To have an issue tracker.
+* To have a place to run CI tests. (To be implemented; see open issues.)
 
 
 
