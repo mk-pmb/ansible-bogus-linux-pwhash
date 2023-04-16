@@ -1,5 +1,5 @@
 { "name": "ansible-bogus-linux-pwhash",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A linux password hash value (for the password field in /etc/passwd or /etc/shadow) that is invalid (i.e. there is no correct input that could match this hash) but can be used with ansible without fuss.",
   "keywords": [
     "ansible",
@@ -23,9 +23,7 @@
   "private": false, "license": "ISC",
 
   "main": "pwhash.json",
-  "scripts": {
-    "test": "nodejs -p 'require(\".\")'"
-  },
+  "scripts": { "test": "node test/all.js" },
 
 
   "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
