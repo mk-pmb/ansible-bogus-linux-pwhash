@@ -1,8 +1,6 @@
-﻿/* -*- tab-width: 2 -*- */
-'use strict';
+﻿import assert from 'node:assert';
 
-const assert = require('assert');
-const pwhash = require('..');
+import pwhash from './index.mjs';
 
 assert.equal(typeof pwhash, 'string');
 assert.equal(pwhash.length, 98);
